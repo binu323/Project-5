@@ -1,0 +1,1410 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0px auto;
+    max-width: 1260px;
+}
+/*header css start*/
+section.header {
+    box-shadow: 0 0 30px rgba(7,51,84,0.17)!important;
+}
+section.header .header-left h1 {
+    font-size: 26px;
+    font-weight: 700;
+    padding: 26px;
+    margin: 0;
+}
+
+section.header .header-right ul {
+    list-style: none;
+    margin: 0;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    /* text-align: right; */
+}
+
+section.header .header-right ul li {
+    display: inline-block;
+}
+
+section.header .header-right ul li a {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 12px;
+}
+
+section.header .row {
+    /*background: #efefef;*/
+}
+
+section.header .header-right {
+    text-align: right;
+    /* padding-left: 20px; */
+}
+
+section.header .header-right ul li a:hover {
+    color: gray;
+}
+.header-1 h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 42px;
+    /* position: relative; */
+}
+.header-1 span {
+    color: #ffba00;
+    width: 50px;
+    position: absolute;
+    top: 6em;
+    left: 37em;
+    border-bottom: 4px solid #ffba00;
+}
+.header-1 {
+    position: relative;
+}
+
+/*header css end*/
+/*banner 1 css start*/
+section.banner-1 {
+    background-image: radial-gradient(circle at top left,rgba(40,40,40,0.79) 0%,rgba(40,40,40,0.86) 100%),url(../../assets/img/project/banner-1.jpg)!important;
+    background-size: cover;
+    /* max-height: 500px; */
+    min-height: 500px;
+    background-repeat: no-repeat;
+    font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serifsans-serif;
+}
+
+section.banner-1 .banner-1-left {
+    color: #fff;
+    padding-left: 4em;
+}
+
+section.banner-1 .row {
+    padding-top: 10em;
+}
+
+section.banner-1 .banner-1-left h1 {
+    font-weight: 700;
+    font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 58px;
+    margin: 0;
+    line-height: 2;
+    padding-left: 20px;
+    border-left: 16px solid #ffb400;
+    border-left-width: 10px;
+}
+
+section.banner-1 .banner-1-left p {
+    font-size: 22px;
+    padding: 22px 0;
+    font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.banner-1-right ul {
+    list-style: none;
+}
+
+.banner-1-right ul li a {
+    color: #fff;
+    line-height: 2.1em;
+    font-weight: 600;
+}
+
+.banner-1-right {
+    padding-top: 2em;
+}
+/*banner 1 css end */
+/*about the project css start   */
+.about-project-right img {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    object-fit: cover;
+    padding-top: 6em;
+}
+
+.about-project-left {
+    padding-top: 6em;
+}
+
+.about-project-left h1 {
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+    position: relative;
+}
+
+.about-project-left span {
+    background: #ffb400;
+    width: 50px;
+    border-bottom: 6px solid #ffb400;
+    color: #ffb400;
+    position: absolute;
+    top: 12em;
+}
+
+.about-project-left p {
+    color: #666;
+    font-size: 19px;
+    padding-top: 5em;
+    margin: 0;
+}
+
+.about-project-left ul {
+    color: #666;
+    font-size: 18px;
+    /* margin: 0; */
+    padding-left: 20px;
+}
+
+.about-project-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-left img {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.about-project-img {
+    padding-top: 4em;
+}
+
+.about-project-img {}
+
+.about-left {
+    padding-top: 3em;
+}
+
+.about-right {
+    padding-top: 5em;
+}
+
+.about-right p {
+    color: #666;
+    padding: 0 20px;
+    line-height: 26px;
+    /* font-weight: 500; */
+    font-size: 17px;
+}
+/*about the project css ends*/
+/*related projects css start*/
+section.related-project {
+    background: #efefef;
+    padding-top: 4em;
+}
+
+.related-project-row1 {
+    padding-top: 6em;
+}
+
+.same-size-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 12px;
+    /* box-shadow: 0px 30px 65px -30px rgb(0 0 0 / 35%); */
+}
+
+.same-size-img {
+    position: relative;
+}
+
+.same-size-img span {
+    width: 94%;
+    height: 91%;
+    box-shadow: 0px 30px 65px -30px rgb(0 0 0 / 35%);
+    position: absolute;
+    top: 11px;
+    right: 12px;
+    /* border: 2px solid gray; */
+}
+
+.same-box-text {
+    border: 2px solid #dfdfdf;
+    padding: 20px;
+    margin-top: 2em;
+    width: 100%;
+}
+
+.same-box-text h4 {font-weight: 700;font-size: 19px;}
+
+.same-box-text p {
+    padding: 10px 0;
+    color: #666;
+    line-height: 29px;
+    font-weight: 500;
+}
+
+.same-box-text-btn button {
+    border: 4px solid #dfdfdf;
+    padding: 6px;
+    color: #666;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.same-box-text-btn button i {
+    display: none;
+}
+
+.same-box-text-btn button i:hover {
+    display: inline-block;
+}
+.related-project-btn {
+    text-align: center;
+    padding: 4em;
+}
+
+.related-project-btn button {
+    border: 3px solid #000;
+    padding: 12px;
+    width: 15%;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.related-project-btn button:hover {
+    background: #000;
+    color: #fff;
+}
+
+.related-project-btn button i {
+    display: none;
+}
+
+.related-project-btn button i:hover {
+    display: inline-block;
+}
+/*related project css end*/
+/*contact us css start*/
+.contact-us-left {
+    background: #ffb400;
+    padding: 5em;
+    position: relative;
+}
+
+.contact-us-left h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #000;
+}
+
+.contact-us-left span {
+    width: 50px;
+    background: #000;
+    border-bottom: 6px solid #000;
+    position: absolute;
+    top: 10em;
+}
+
+.contact-us-left form {
+    padding-top: 4em;
+}
+
+.form-input input {
+    padding: 16px;
+    width: 48%;
+    margin: 3px;
+    border: 2px solid #fff;
+    color: #999;
+}
+
+.form-textarea textarea {
+    margin: 3px;
+    width: 98%;
+    height: 140px;
+    margin-top: 17px;
+    border: 2px solid #fff;
+}
+
+.contact-us-btn {
+    text-align: right;
+    padding-right: 7px;
+    padding-top: 22px;
+}
+
+.contact-us-btn button {
+    padding: 6px;
+    width: 208px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    background: transparent;
+    border: 4px solid #fff;
+    color: #fff;
+}
+.contact-us-right {
+    /* padding-top: 3em; */
+}
+
+.contact-us-right-icon ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+
+.contact-us-right-icon ul li {
+    display: inline-block;
+    /* text-align: center; */
+}
+
+.contact-us-right-icon {
+    background: #000;
+    padding: 2em;
+}
+
+.contact-us-right-icon {}
+
+.contact-us-right-icon ul li i {
+    color: #fff;
+    padding: 16px;
+    font-size: 24px;
+}
+
+.contact-us-right-text {
+    padding-top: 6em;
+}
+
+.contact-us-right-text ul {
+    list-style: none;
+    padding: 0px 75px;
+}
+
+.contact-us-right-text {}
+
+.contact-us-right-text ul li {
+    /* display: inline-block; */
+    color: #000;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.contact-us-right-text ul li i {
+    padding: 12px;
+    font-size: 24px;
+    color: #666;
+}
+section.contact-us .row .col-md-6 {
+    padding: 0;
+}
+/*contact us css end*/
+/*footer css start*/
+footer p {
+    color: #666;
+    margin: 0;
+    padding: 20px;
+}
+
+footer {
+    background: #222;
+}
+
+.footer-right ul li i {
+    color: #666;
+    padding: 14px;
+    font-size: 22px;
+}
+.footer-right ul li i:hover {
+    color: #4b93ed;
+}
+.footer-right ul {
+    list-style: none;
+    margin: 0;
+    margin-top: 12px;
+}
+
+.footer-right ul li {
+    display: inline-block;
+}
+
+.footer-right {
+    text-align: right;
+}
+/*footer css end*/
+
+/*PROJECT CONSTRUCTION CSS END HERE*/
+
+/*BLOG CONSTRUCTION CSS START HERE*/
+/*blog banner 1 css star*/
+section.blog-banner1 {
+    background-image: radial-gradient(circle at top left,rgba(40,40,40,0.79) 0%,rgba(40,40,40,0.86) 100%),url(../../assets/img/blog/banner-1.jpg)!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 325px;
+    position: relative;
+}
+section.blog-banner1 h1 {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 800;
+    font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+    padding-top: 148px;
+    padding-left: 2em;
+}
+section.blog-banner1 span {
+    height: 76px;
+    /* color: #ffb400; */
+    border-left: 9px solid #ffb400;
+    position: absolute;
+    top: 9em;
+    left: 10em;
+}
+/*blog banner 1 css star*/
+/*blog 6 box css start*/
+section.blog-6box {
+    background: #efefef;
+}
+
+.blog-img-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog-same-box {
+    background: #fff;
+    width: 92%;
+    margin-top: 60px;
+}
+
+.blog-text-box {
+    padding: 26px;
+}
+
+.blog-text-box h3 {
+    font-size: 21px;
+    font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif!important;
+    font-weight: 800;
+    margin: 0;
+}
+
+.blog-text-box span {
+    color: #999;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 44px;
+}
+
+.blog-text-box p {
+    font-size: 16px;
+    color: #666;
+}
+/*blog 6 box css end*/
+/*join our newsletter css start*/
+.blog-join-left {
+    background: #ffb400;
+    padding: 5em;
+    position: relative;
+}
+
+.blog-join-left h1 {
+    font-size: 42px;
+    font-weight: 800;
+    color: #000;
+    font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.blog-join-left span {
+    width: 50px;
+    background: #000;
+    border-bottom: 6px solid #000;
+    position: absolute;
+    top: 10em;
+}
+
+.blog-join-left form {
+    padding-top: 4em;
+}
+
+.blog-join-left .form-input input {
+    padding: 16px;
+    width: 100%;
+    margin: 11px 0px;
+    border: 2px solid #fff;
+    color: #999;
+}
+
+.blog-join-btn {
+    /*text-align: right;*/
+    /*padding-right: 7px;*/
+    padding-top: 22px;
+}
+
+.blog-join-btn button {
+    padding: 14px;
+    width: 100%;
+    font-weight: 700;
+    letter-spacing: 3px;
+    background: transparent;
+    border: 4px solid #fff;
+    color: #fff;
+}
+.blog-join-btn button:hover {
+    background: #fff;
+    color: #ffb400;
+}
+.blog-join-right {
+    /* padding-top: 3em; */
+}
+
+.blog-join-right-icon ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+
+.blog-join-right-icon ul li {
+    display: inline-block;
+    /* text-align: center; */
+}
+
+.blog-join-right-icon {
+    background: #000;
+    padding: 2em;
+}
+
+.blog-join-right-icon {}
+
+.blog-join-right-icon ul li i {
+    color: #fff;
+    padding: 16px;
+    font-size: 24px;
+}
+
+.blog-join-right-text {
+    padding-top: 6em;
+}
+
+.blog-join-right-text ul {
+    list-style: none;
+    padding: 0px 75px;
+}
+
+
+.blog-join-right-text ul li {
+    /* display: inline-block; */
+    color: #000;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.blog-join-right-text ul li i {
+    padding: 12px;
+    font-size: 24px;
+    color: #666;
+}
+section.blog-join .row .col-md-6 {
+    padding: 0;
+}
+/*join our newsletter css end*/
+/*BLOG CONSTRUCTION CSS END HERE*/
+
+/*PORTFOLIO CONSTRUCTION CSS START*/
+/*portfolio banner css start*/
+section.portfolio-banner {
+    background-image: radial-gradient(circle at top left,rgba(40,40,40,0.79) 0%,rgba(40,40,40,0.86) 100%),url(../../assets/img/portfolio/download.jpg)!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+}
+
+section.portfolio-banner h1 {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 800;
+    padding-right: 7em;
+    padding-left: 161px;
+    padding-top: 3em;
+}
+
+section.portfolio-banner p {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 400;
+    padding-right: 24em;
+    padding-left: 6em;
+    padding-top: 20px;
+    line-height: 42px;
+}
+
+section.portfolio-banner span {
+    height: 150px;
+    border-left: 10px solid #ffb400;
+    position: absolute;
+    top: 13em;
+    left: 185px;
+}
+/*portfolio banner css end*/
+/*portfolio 9box css start*/
+section.portfolio-9-box {
+    background: #efefef;
+    padding-top: 4em;
+}
+
+.portfolio-9-box-row1 {
+    /*padding-top: 6em;*/
+}
+.portfolio-9-box-row1 .row .col-md-4 {
+    padding-top: 42px;
+    padding-bottom: 25px;
+}
+
+.portfolio-9-box-same-size-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 12px;
+    /* box-shadow: 0px 30px 65px -30px rgb(0 0 0 / 35%); */
+}
+
+.portfolio-9-box-same-size-img {
+    position: relative;
+}
+
+.portfolio-9-box-same-size-img span {
+    width: 94%;
+    height: 91%;
+    box-shadow: 0px 30px 65px -30px rgb(0 0 0 / 35%);
+    position: absolute;
+    top: 11px;
+    right: 12px;
+    /* border: 2px solid gray; */
+}
+
+.portfolio-9-box-same-box-text {
+    border: 2px solid #dfdfdf;
+    padding: 20px;
+    margin-top: 2em;
+    width: 100%;
+}
+
+.portfolio-9-box-same-box-text h4 {
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.portfolio-9-box-same-box-text p {
+    padding: 10px 0;
+    color: #666;
+    line-height: 29px;
+    font-weight: 500;
+}
+
+.portfolio-9-box-same-box-text-btn button {
+    border: 4px solid #dfdfdf;
+    padding: 6px;
+    color: #666;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.portfolio-9-box-same-box-text-btn button i {
+    display: none;
+}
+
+.portfolio-9-box-same-box-text-btn button i:hover {
+    display: inline-block;
+}
+
+/*portfolio 9box css start*/
+/*PORTFOLIO CONSTRUCTION CSS end*/
+
+/*SERVICE CONSTRUCTION CSS START*/
+/*service banner css start*/
+section.service-banner{
+ background-image: radial-gradient(circle at top left,rgba(40,40,40,0.79) 0%,rgba(40,40,40,0.86) 100%),url(../../assets/img/service/download.jpg)!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+}
+.service-banner-left h1 {
+    color: #fff;
+    padding-top: 3em;
+    font-size: 64px;
+    padding-left: 26px;
+    font-weight: 900;
+}
+
+.service-banner-left p {
+    color: #fff;
+    font-size: 22px;
+    /* padding-right: 12px; */
+    padding-top: 17px;
+    width: 100%;
+}
+
+.service-banner-left {
+    padding-left: 8em;
+    position: relative;
+}
+
+.service-banner-left span {
+    /* color: #ffb400; */
+    border-left: 12px solid #ffb400;
+    height: 90px;
+    position: absolute;
+    top: 193px;
+}
+
+.service-banner-btn button {
+    padding: 15px;
+    width: 42%;
+    letter-spacing: 3px;
+    font-weight: 700;
+    background: #ffb400;
+    border: 2px solid #ffb400;
+    color: #fff;
+}
+
+.service-banner-btn {
+    padding-top: 42px;
+}
+
+.service-banner-right {}
+
+.service-banner-right {
+    color: #fff;
+    position: relative;
+}
+
+.service-banner-right img {
+    width: 62px;
+    position: absolute;
+    right: 20em;
+    object-fit: cover;
+    height: 70px;
+}
+
+.service-banner-right h3 {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+section.service-banner .row {
+}
+
+.service-banner-right p {
+    font-size: 18px;
+    padding-right: 1em;
+}
+.service-banner-right {
+    padding-top: 13em;
+    padding-left: 6em;
+}
+/*service banner css end*/
+/*service paragraph css start*/
+section.service-paragraph {
+    padding-top: 5em;
+    color: #666;
+    line-height: 28px;
+    font-size: 19px;
+    height: 500px;
+}
+/*service paragraph css end*/
+/*about this process css start*/
+.about-this-process-left {
+    background: #2a2a2a;
+    color: #fff;
+    min-height: 600px;
+    padding: 3em;
+    padding-top: 6em;
+    position: relative;
+}
+
+.about-this-process-left h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.about-this-process-left p {
+    /* font-size: 20px; */
+    padding-top: 5em;
+    font-weight: 600;
+    margin: 0;
+    line-height: 28px;
+}
+
+.about-this-process-left span {
+    border-bottom: 6px solid #ffb400;
+    width: 60px;
+    position: absolute;
+    top: 14em;
+}
+
+.about-this-process-left ul li {
+    font-weight: 600;
+    line-height: 28px;
+}
+.about-this-process-2box {
+    display: flex;
+    margin-top: -6px;
+    box-shadow: 0px 30px 65px -30px rgb(0 0 0 / 35%);
+}
+
+.about-this-process-call {
+    background: #ffb400;
+    width: 50%;
+    /* text-align: center; */
+    align-items: center;
+    height: 140px;
+}
+
+.about-this-process-online-EF {
+    background: #fff;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    height: 140px;
+}
+
+.about-this-process-online-EF button {
+    padding: 13px;
+    background: #fff;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 3px;
+    border: 3px solid #000;
+    width: 73%;
+}
+.about-this-process-online-EF button:hover {
+    background: #000;
+    color: #fff;
+}
+.about-this-process-call h2 {
+    font-size: 34px;
+    font-weight: 700;
+    padding-left: 80px;
+    padding-top: 23px;
+}
+
+.about-this-process-call p {
+    font-size: 22px;
+    font-weight: 700;
+    padding-left: 83px;
+    letter-spacing: 3px;
+}
+
+.about-this-process-online-EF-btn {
+    padding-top: 36px;
+}
+
+
+.about-this-process-iframe iframe {
+    width: 100%;
+    height: 460px;
+    }
+
+section.about-this-process .row .col-md-4 {
+    margin: 0;
+    padding: 0;
+}
+
+section.about-this-process .row .col-md-8 {
+    padding: 0;
+}
+/*about this process css end*/
+/*F.A.Q css start*/
+section.service-f\.a\.q {
+    background: #efefef;
+    min-height: 600px;
+}
+
+.service-f\.a\.q-left h1 {font-weight: 800;padding-bottom: 2em;}
+
+.service-f\.a\.q-left {
+    position: relative;
+}
+
+.service-f\.a\.q-left span {
+    border-bottom: 5px solid #ffb400;
+    width: 56px;
+    position: absolute;
+    top: 92px;
+}
+
+.service-f\.a\.q-left p {
+    color: #999;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.service-f\.a\.q-btn button {
+    padding: 18px;
+    border: 3px solid #ffb400;
+    width: 60%;
+    color: #ffb400;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.service-f\.a\.q-btn button:hover {
+    color: #fff;
+    background: #ffb400;
+}
+
+.service-f\.a\.q-btn {
+    padding-top: 20px;
+}
+
+.service-f\.a\.q-right {
+    background: #fff;
+    /* padding: 30px; */
+}
+
+.service-f\.a\.q-right-up h3 {
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 22px;
+}
+
+.service-f\.a\.q-right-up p {
+    color: #999;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.service-f\.a\.q-right-down h3 {
+    font-size: 20px;
+    margin: 0;
+    padding: 17px;
+    border-top: 1px solid #f5f1f1;
+    padding-left: 30px;
+    position: relative;
+}
+
+.service-f\.a\.q-right-down {
+    padding: 0;
+}
+
+.service-f\.a\.q-right-up {
+    padding: 30px;
+}
+
+.service-f\.a\.q-right-down i {
+    color: #ffb400;
+    font-size: 25px;
+    position: absolute;
+    right: 26px;
+}
+/*F.A.Q css end*/
+/*SERVICE CONSTRUCTION CSS END*/
+
+/*SERVICEs CONSTRUCTION CSS START*/
+/*services-banner css start*/
+section.services-banner{
+ background-image: radial-gradient(circle at top left,rgba(40,40,40,0.79) 0%,rgba(40,40,40,0.86) 100%),url(../../assets/img/services/download.jpg)!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+}
+.services-banner-left h1 {
+    color: #fff;
+    padding-top: 2em;
+    font-size: 64px;
+    padding-left: 26px;
+    font-weight: 900;
+}
+
+.services-banner-left p {
+    color: #fff;
+    font-size: 22px;
+    padding-right: 12px;
+    padding-top: 40px;
+    width: 100%;
+    padding-bottom: 50px;
+    line-height: 46px;
+}
+
+.services-banner-left {
+    padding-left: 8em;
+    position: relative;
+}
+
+.services-banner-left span {
+    /* color: #ffb400; */
+    border-left: 10px solid #ffb400;
+    height: 11em;
+    position: absolute;
+    top: 133px;
+}
+
+.services-banner-left-btn button {
+    padding: 15px;
+    width: 42%;
+    letter-spacing: 3px;
+    font-weight: 700;
+    background: #ffb400;
+    border: 2px solid #ffb400;
+    color: #fff;
+}
+
+.services-banner-btn {
+    padding-top: 42px;
+}
+
+.services-banner-right {}
+
+.services-banner-right {
+    color: #fff;
+    position: relative;
+}
+
+.services-banner-right img {
+    width: 62px;
+    position: absolute;
+    right: 20em;
+    object-fit: cover;
+    height: 70px;
+}
+
+.services-banner-right h3 {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+section.services-banner .row {
+}
+
+.services-banner-right p {
+    font-size: 18px;
+    padding-right: 1em;
+}
+.services-banner-right {
+    padding-top: 2em;
+    padding-left: 3em;
+}
+.services-banner-right-h2 h2 {
+    font-weight: 900;
+    color: #ffb400;
+    padding-top: 2em;
+}
+/*services-banner css end*/
+/*get quote css start*/
+section.get-quote {
+    min-height: 150px;
+    box-shadow: 0 0 30px rgba(7,51,84,0.17)!important;
+}
+
+.get-quote-left h1 {
+    font-size: 42px;
+    font-weight: 800;
+    padding-top: 1em;
+}
+
+.get-quote-right {
+    padding-top: 2em;
+    padding-right: 54px;
+    text-align: right;
+}
+.get-quote-right button {
+    padding: 14px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    background: transparent;
+    border: 6px solid #ffb400;
+    color: #ffb400;
+    width: 42%;
+}
+
+.get-quote-right button:hover {
+    background: #ffb400;
+    color: #fff;
+}
+.get-quote-right button i {
+    display: none;
+}
+
+.get-quote-right button:hover i {
+    display: inline-block;
+}
+/*get quote css end*/
+/*building construction css start*/
+.building-construction-right-down {
+    display: flex;
+}
+
+
+.building-construction-right-down-ul {
+    width: 100%;
+    padding-top: 16px;
+}
+
+.building-construction-right-down-ul ul li {
+    color: #999;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.building-construction-right-upper p {
+    color: #999;
+    font-size: 18px;
+    padding-top: 2em;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.building-construction-right-upper span {
+    width: 7%;
+    border-bottom: 4px solid #ffb400;
+    position: absolute;
+    left: 72px;
+    top: 10em;
+}
+
+.building-construction-right-upper h1 {
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 2em;
+}
+
+.building-construction-right {
+    position: relative;
+    background: #efefef;
+    padding-left: 70px;
+}
+
+section.building-construction .row .col-md-8 {
+    padding: 0;
+    margin: 0;
+}
+/*building construction 2 btn start*/
+.building-construction-right-2-btn {
+    display: flex;
+    width: 100%;
+}
+
+.building-construction-right-2-btn-left {
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    background: #2a2a2a;
+    padding: 50px;
+}
+
+.building-construction-right-2-btn-right {
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    background: #ffb400;
+}
+
+.building-construction-right-2-btn-left button {
+    padding: 10px;
+    background: transparent;
+    border: 4px solid #fff;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.building-construction-right-2-btn-right button {
+    padding: 10px;
+    background: transparent;
+    border: 4px solid #fff;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+/*building construction 2 btn end*/
+/*building construction css end*/
+
+
+/*repairs and intallations css start*/
+.repairs-intallations-right-down {
+    display: flex;
+}
+
+
+.repairs-intallations-right-down-ul {
+    width: 100%;
+    padding-top: 16px;
+}
+
+.repairs-intallations-right-down-ul ul li {
+    color: #999;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.repairs-intallations-right-upper p {
+    color: #999;
+    font-size: 18px;
+    padding-top: 2em;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.repairs-intallations-right-upper span {
+    width: 7%;
+    border-bottom: 4px solid #ffb400;
+    position: absolute;
+    left: 72px;
+    top: 10em;
+}
+
+.repairs-intallations-right-upper h1 {
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 2em;
+}
+
+.repairs-intallations-right {
+    position: relative;
+    background: #fff;
+    padding-left: 70px;
+}
+
+section.repairs-intallations .row .col-md-8 {
+    padding: 0;
+    margin: 0;
+    padding-top: 2em;
+}
+
+section.repairs-intallations .row .col-md-4 {
+    background: #efefef;
+}
+/*repairs and intallations 2 btn start*/
+.repairs-intallations-right-2-btn {
+    display: flex;
+    width: 100%;
+}
+
+.repairs-intallations-right-2-btn-left {
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    background: #2a2a2a;
+    padding: 50px;
+}
+
+.repairs-intallations-right-2-btn-right {
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    background: #ffb400;
+}
+
+.repairs-intallations-right-2-btn-left button {
+    padding: 10px;
+    background: transparent;
+    border: 4px solid #fff;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.repairs-intallations-right-2-btn-right button {
+    padding: 10px;
+    background: transparent;
+    border: 4px solid #fff;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+/*repairs and intallations 2 btn end*/
+/*repairs and intallations css end*/
+
+/*custom design projects css start*/
+.custom-design-projects-right-down {
+    display: flex;
+}
+
+
+.custom-design-projects-right-down-ul {
+    width: 100%;
+    padding-top: 16px;
+}
+
+.custom-design-projects-right-down-ul ul li {
+    color: #999;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.custom-design-projects-right-upper p {
+    color: #999;
+    font-size: 18px;
+    padding-top: 2em;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.custom-design-projects-right-upper span {
+    width: 7%;
+    border-bottom: 4px solid #ffb400;
+    position: absolute;
+    left: 72px;
+    top: 10em;
+}
+
+.custom-design-projects-right-upper h1 {
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 2em;
+}
+
+.custom-design-projects-right {
+    position: relative;
+    background: #efefef;
+    padding-left: 70px;
+}
+
+section.custom-design-projects .row .col-md-8 {
+    padding: 0;
+    margin: 0;
+}
+/*custom design projects 2 btn start*/
+.custom-design-projects-right-2-btn {
+    display: flex;
+    width: 100%;
+}
+
+.custom-design-projects-right-2-btn-left {
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    background: #2a2a2a;
+    padding: 50px;
+}
+
+.custom-design-projects-right-2-btn-right {
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    background: #ffb400;
+}
+
+.custom-design-projects-right-2-btn-left button {
+    padding: 10px;
+    background: transparent;
+    border: 4px solid #fff;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.custom-design-projects-right-2-btn-right button {
+    padding: 10px;
+    background: transparent;
+    border: 4px solid #fff;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+/*custom design projects 2 btn end*/
+/*custom design projects css end*/
+/*SERVICEs CONSTRUCTION CSS END*/
